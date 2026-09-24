@@ -1,0 +1,20 @@
+/main/xfyun_spark_local.h
+/ESP32_I2S_test-main/main/xfyun_iat_local.h
+/ESP32_I2S_test-main/main/wifi.h
+
+# Local ESP-IDF outputs and downloaded firmware
+**/build/
+**/build_*/
+**/managed_components/
+**/sdkconfig
+**/sdkconfig.old
+*.elf
+*.map
+/merged-binary (1).bin
+
+# Machine-specific editor files and logs
+**/.vscode/
+**/.spec-workflow/
+.git-push-work/
+*.log
+*.pyc
