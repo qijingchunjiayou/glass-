@@ -1,0 +1,538 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe 
+      Build flags: @C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cflags
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe 
+      Build flags: @C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cxxflags
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-esp-elf-gcc.exe (crosstool-NG esp-15.2.0_20251204) 15.2.0
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-ygunbm"
+      binary: "C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-ygunbm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "@\"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cflags\""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "@\"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags\""
+      CMAKE_MODULE_PATH: "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake;E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-ygunbm'
+        
+        Run Build Command(s): E:/Esp32/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_4a8a3
+        [1/2] E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe @CMakeFiles\\cmTC_4a8a3.dir\\CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj -c E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/cc1.exe -quiet -v -imultilib esp32s3 -iprefix E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/ -isysroot E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a8a3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -version -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc01GOUr.s
+        GNU C23 (crosstool-NG esp-15.2.0_20251204) version 15.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include"
+        ignoring nonexistent directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/../../../../include"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: e6b21aec963fbe25dfad096ddce866c1
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc01GOUr.s
+        COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cflags" @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags" -v @CMakeFiles\\cmTC_4a8a3.rsp -o cmTC_4a8a3 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        COLLECT_LTO_WRAPPER=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) 
+        COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_4a8a3' '-dumpdir' 'cmTC_4a8a3.'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe -plugin E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll -plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccS5hLWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4a8a3 E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib @C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc2T4ATv -lgcc -lc -lnosys -lc -lgcc E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_4a8a3' '-dumpdir' 'cmTC_4a8a3.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include-fixed;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-ygunbm']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Esp32/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_4a8a3]
+        ignore line: [[1/2] E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe @CMakeFiles\\cmTC_4a8a3.dir\\CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj -c E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/']
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/cc1.exe -quiet -v -imultilib esp32s3 -iprefix E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/ -isysroot E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a8a3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -version -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc01GOUr.s]
+        ignore line: [GNU C23 (crosstool-NG esp-15.2.0_20251204) version 15.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e6b21aec963fbe25dfad096ddce866c1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/']
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc01GOUr.s]
+        ignore line: [COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4a8a3.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cflags" @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags" -v @CMakeFiles\\cmTC_4a8a3.rsp -o cmTC_4a8a3 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) ]
+        ignore line: [COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_4a8a3' '-dumpdir' 'cmTC_4a8a3.']
+        link line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe -plugin E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll -plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccS5hLWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4a8a3 E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib @C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc2T4ATv -lgcc -lc -lnosys -lc -lgcc E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o\x0d]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccS5hLWP.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4a8a3] ==> ignore
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
+          arg [@C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc2T4ATv] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_4a8a3' '-dumpdir' 'cmTC_4a8a3.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+        implicit libs: [gcc;c;nosys;c;gcc]
+        implicit objs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        implicit dirs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-iggvzb"
+      binary: "C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-iggvzb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "@\"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cxxflags\""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "@\"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags\""
+      CMAKE_MODULE_PATH: "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake;E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-iggvzb'
+        
+        Run Build Command(s): E:/Esp32/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_d1404
+        [1/2] E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe @CMakeFiles\\cmTC_d1404.dir\\CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj -c E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/cc1plus.exe -quiet -v -imultilib esp32s3 -iprefix E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/ -isysroot E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d1404.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -version -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccbRoUlr.s
+        GNU C++17 (crosstool-NG esp-15.2.0_20251204) version 15.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include"
+        ignoring nonexistent directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/../../../../include"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: 4a5fbbbea400d48f02e70eeffcc23385
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccbRoUlr.s
+        COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cxxflags" @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags" -v @CMakeFiles\\cmTC_d1404.rsp -o cmTC_d1404 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        COLLECT_LTO_WRAPPER=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) 
+        COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_d1404' '-dumpdir' 'cmTC_d1404.'
+         E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe -plugin E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll -plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccp0qsIP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_d1404 E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib @C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccqNDzCu -lgcc -lc -lnosys -lc -lgcc E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_d1404' '-dumpdir' 'cmTC_d1404.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+          add: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/backward]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+        collapse include dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/backward;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include-fixed;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:717 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/CMakeFiles/CMakeScratch/TryCompile-iggvzb']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Esp32/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_d1404]
+        ignore line: [[1/2] E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe @CMakeFiles\\cmTC_d1404.dir\\CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj -c E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/']
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/cc1plus.exe -quiet -v -imultilib esp32s3 -iprefix E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/ -isysroot E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf E:/Esp32/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d1404.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -version -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccbRoUlr.s]
+        ignore line: [GNU C++17 (crosstool-NG esp-15.2.0_20251204) version 15.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include/c++/15.2.0/backward]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed]
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4a5fbbbea400d48f02e70eeffcc23385]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/']
+        ignore line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccbRoUlr.s]
+        ignore line: [COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d1404.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cxxflags" @"C:/Users/Administrator/Desktop/OLed IMU/IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags" -v @CMakeFiles\\cmTC_d1404.rsp -o cmTC_d1404 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Esp32\\Espressif\\tools\\xtensa-esp-elf\\esp-15.2.0_20251204\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) ]
+        ignore line: [COMPILER_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_d1404' '-dumpdir' 'cmTC_d1404.']
+        link line: [ E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe -plugin E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll -plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccp0qsIP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_d1404 E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0 -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib @C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccqNDzCu -lgcc -lc -lnosys -lc -lgcc E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o\x0d]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccp0qsIP.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d1404] ==> ignore
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [-LE:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
+          arg [@C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccqNDzCu] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o]
+          arg [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o] ==> obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-v' '-o' 'cmTC_d1404' '-dumpdir' 'cmTC_d1404.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o]
+        collapse obj [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+        implicit libs: [gcc;c;nosys;c;gcc]
+        implicit objs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crti.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtbegin.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtend.o;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3/crtn.o]
+        implicit dirs: [E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/esp32s3;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/lib;E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+        implicit fwks: []
+      
+      
+...

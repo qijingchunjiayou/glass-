@@ -1,0 +1,476 @@
+Command: ninja all
+[0/2] Re-checking globbed directories...
+[1/234] Generating project_elf_src_esp32s3.c
+[2/234] Preprocessing linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_system/ld/esp32s3/memory.ld.in -> C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/esp-idf/esp_system/ld/memory.ld
+[3/234] Preprocessing linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_system/ld/esp32s3/sections.ld.in -> C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/esp-idf/esp_system/ld/sections.ld.in
+[4/234] Linking C static library esp-idf\esp_http_server\libesp_http_server.a
+[5/234] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,16K,
+otadata,data,ota,0xd000,8K,
+phy_init,data,phy,0xf000,4K,
+ota_0,app,ota_0,0x20000,4032K,
+ota_1,app,ota_1,0x410000,4032K,
+assets,data,spiffs,0x800000,8M,
+*******************************************************************************
+[6/234] Creating directories for 'bootloader'
+[7/234] Linking C static library esp-idf\esp-tls\libesp-tls.a
+[8/234] No download step for 'bootloader'
+[9/234] Linking C static library esp-idf\http_parser\libhttp_parser.a
+[10/234] No update step for 'bootloader'
+[11/234] Linking C static library esp-idf\esp_gdbstub\libesp_gdbstub.a
+[12/234] No patch step for 'bootloader'
+[13/234] Linking C static library esp-idf\esp_wifi\libesp_wifi.a
+[14/234] Linking C static library esp-idf\esp_coex\libesp_coex.a
+[15/234] Linking C static library esp-idf\wpa_supplicant\libwpa_supplicant.a
+[16/234] Linking C static library esp-idf\esp_phy\libesp_phy.a
+[17/234] Linking C static library esp-idf\nvs_flash\libnvs_flash.a
+[18/234] Linking C static library esp-idf\nvs_sec_provider\libnvs_sec_provider.a
+[19/234] Linking C static library esp-idf\esp_netif\libesp_netif.a
+[20/234] Linking C static library esp-idf\lwip\liblwip.a
+[21/234] Linking C static library esp-idf\vfs\libvfs.a
+[22/234] Linking C static library esp-idf\esp_driver_usb_serial_jtag\libesp_driver_usb_serial_jtag.a
+[23/234] Linking C static library esp-idf\esp_driver_uart\libesp_driver_uart.a
+[24/234] Linking C static library esp-idf\esp_event\libesp_event.a
+[25/234] Linking C static library esp-idf\esp_psram\libesp_psram.a
+[26/234] Linking C static library esp-idf\esp_ringbuf\libesp_ringbuf.a
+[27/234] Linking C static library esp-idf\soc\libsoc.a
+[28/234] Linking C static library esp-idf\cxx\libcxx.a
+[29/234] Linking C static library esp-idf\pthread\libpthread.a
+[30/234] Linking C static library esp-idf\esp_libc\libesp_libc.a
+[31/234] Linking C static library esp-idf\freertos\libfreertos.a
+[32/234] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[33/234] Linking C static library esp-idf\esp_hal_touch_sens\libesp_hal_touch_sens.a
+[34/234] Linking C static library esp-idf\esp_hal_pmu\libesp_hal_pmu.a
+[35/234] Linking C static library esp-idf\esp_hal_usb\libesp_hal_usb.a
+[36/234] Linking C static library esp-idf\esp_hal_gpio\libesp_hal_gpio.a
+[37/234] Linking C static library esp-idf\hal\libhal.a
+[38/234] Linking C static library esp-idf\heap\libheap.a
+[39/234] Linking C static library esp-idf\log\liblog.a
+[40/234] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[41/234] Linking C static library esp-idf\esp_common\libesp_common.a
+[42/234] Linking C static library esp-idf\esp_system\libesp_system.a
+[43/234] Linking C static library esp-idf\spi_flash\libspi_flash.a
+[44/234] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[45/234] Linking C static library esp-idf\esp_hal_ana_conv\libesp_hal_ana_conv.a
+[46/234] Linking C static library esp-idf\esp_hal_wdt\libesp_hal_wdt.a
+[47/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\drivers\everest\libeverest.a
+[48/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\drivers\p256-m\libp256-m.a
+[49/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\drivers\pqcp\libpqcp.a
+[50/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\drivers\builtin\libmbed-builtin.a
+[51/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\extras\libextras.a
+[52/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\platform\libplatform.a
+[53/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\utilities\libutilities.a
+[54/234] Linking CXX static library esp-idf\mbedtls\mbedtls\tf-psa-crypto\core\libtfpsacrypto.a
+[55/234] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedtls.a
+[56/234] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedx509.a
+[57/234] Generating ../../x509_crt_bundle.S
+[58/234] Building ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj
+[59/234] Linking C static library esp-idf\mbedtls\libmbedtls.a
+[60/234] Linking C static library esp-idf\esp_driver_dma\libesp_driver_dma.a
+[61/234] Linking C static library esp-idf\esp_mm\libesp_mm.a
+[62/234] Linking C static library esp-idf\esp_pm\libesp_pm.a
+[63/234] Linking C static library esp-idf\esp_hal_uart\libesp_hal_uart.a
+[64/234] Linking C static library esp-idf\esp_driver_gpio\libesp_driver_gpio.a
+[65/234] Linking C static library esp-idf\esp_security\libesp_security.a
+[66/234] Linking C static library esp-idf\esp_timer\libesp_timer.a
+[67/234] Linking C static library esp-idf\esp_hal_systimer\libesp_hal_systimer.a
+[68/234] Linking C static library esp-idf\esp_hal_timg\libesp_hal_timg.a
+[69/234] Linking C static library esp-idf\efuse\libefuse.a
+[70/234] Linking C static library esp-idf\esp_partition\libesp_partition.a
+[71/234] Linking C static library esp-idf\app_update\libapp_update.a
+[72/234] Linking C static library esp-idf\esp_bootloader_format\libesp_bootloader_format.a
+[73/234] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[74/234] Linking C static library esp-idf\esp_hal_security\libesp_hal_security.a
+[75/234] Linking C static library esp-idf\esp_hal_mspi\libesp_hal_mspi.a
+[76/234] Linking C static library esp-idf\esp_hal_clock\libesp_hal_clock.a
+[77/234] Linking C static library esp-idf\esp_hal_gpspi\libesp_hal_gpspi.a
+[78/234] Linking C static library esp-idf\esp_hal_dma\libesp_hal_dma.a
+[79/234] Linking C static library esp-idf\esp_stdio\libesp_stdio.a
+[80/234] Linking C static library esp-idf\xtensa\libxtensa.a
+[81/234] Linking C static library esp-idf\esp_hal_i2c\libesp_hal_i2c.a
+[82/234] Linking C static library esp-idf\esp_hal_i2s\libesp_hal_i2s.a
+[83/234] Linking C static library esp-idf\esp_hal_twai\libesp_hal_twai.a
+[84/234] Linking C static library esp-idf\esp_driver_spi\libesp_driver_spi.a
+[85/234] Linking C static library esp-idf\esp_hal_sd\libesp_hal_sd.a
+[86/234] Linking C static library esp-idf\esp_hal_ledc\libesp_hal_ledc.a
+[87/234] Linking C static library esp-idf\espressif__cjson\libespressif__cjson.a
+[88/234] Linking C static library esp-idf\esp_hal_cam\libesp_hal_cam.a
+[89/234] Linking C static library esp-idf\tcp_transport\libtcp_transport.a
+[90/234] Linking CXX static library esp-idf\espressif__mqtt\lib\mqtt_utils\libmqtt_utils_lib.a
+[91/234] Linking CXX static library esp-idf\espressif__mqtt\lib\mqtt_outbox\libmqtt_outbox_lib.a
+[92/234] Linking C static library esp-idf\esp_adc\libesp_adc.a
+[93/234] Linking C static library esp-idf\espressif__usb\libespressif__usb.a
+[94/234] Linking C static library esp-idf\esp_hal_rmt\libesp_hal_rmt.a
+[95/234] Linking C static library esp-idf\laride__heatshrink\liblaride__heatshrink.a
+[96/234] Generating ../../wifi_configuration_done.html.S
+[97/234] Linking C static library esp-idf\esp_driver_i2c\libesp_driver_i2c.a
+[98/234] Linking C static library esp-idf\esp_driver_i2s\libesp_driver_i2s.a
+[99/234] Linking C static library esp-idf\driver\libdriver.a
+[100/234] Linking C static library esp-idf\esp_driver_ledc\libesp_driver_ledc.a
+[101/234] Linking C static library esp-idf\esp_hal_lcd\libesp_hal_lcd.a
+[102/234] Generating ../../wifi_configuration.html.S
+[103/234] Linking C static library esp-idf\sdmmc\libsdmmc.a
+[104/234] Linking C static library esp-idf\esp_driver_cam\libesp_driver_cam.a
+[105/234] Linking C static library esp-idf\espressif__mqtt\libespressif__mqtt.a
+[106/234] Linking C static library esp-idf\wear_levelling\libwear_levelling.a
+[107/234] Linking C static library esp-idf\78__uart-uhci\lib78__uart-uhci.a
+[108/234] Linking CXX static library esp-idf\espressif__freetype\output\libfreetype.a
+[109/234] Linking C static library esp-idf\espressif__iot_eth\libespressif__iot_eth.a
+[110/234] Building ASM object esp-idf/78__esp-wifi-connect/CMakeFiles/__idf_78__esp-wifi-connect.dir/__/__/wifi_configuration.html.S.obj
+[111/234] Linking C static library esp-idf\esp_driver_sd_intf\libesp_driver_sd_intf.a
+[112/234] Linking C static library esp-idf\espressif__button\libespressif__button.a
+[113/234] Linking C static library esp-idf\spiffs\libspiffs.a
+[114/234] Linking C static library esp-idf\espressif__esp_sccb_intf\libespressif__esp_sccb_intf.a
+[115/234] Linking C static library esp-idf\espressif__dl_fft\libespressif__dl_fft.a
+[116/234] Linking C static library esp-idf\espressif__i2c_bus\libespressif__i2c_bus.a
+[117/234] Linking C static library esp-idf\espressif__esp_jpeg\libespressif__esp_jpeg.a
+[118/234] Linking C static library esp-idf\esp_driver_sdspi\libesp_driver_sdspi.a
+[119/234] Building ASM object esp-idf/78__esp-wifi-connect/CMakeFiles/__idf_78__esp-wifi-connect.dir/__/__/wifi_configuration_done.html.S.obj
+[120/234] Linking C static library esp-idf\esp_lcd\libesp_lcd.a
+[121/234] Linking C static library esp-idf\espressif__esp_io_expander\libespressif__esp_io_expander.a
+[122/234] Linking C static library esp-idf\espressif__esp_mmap_assets\libespressif__esp_mmap_assets.a
+[123/234] Linking C static library esp-idf\espressif__knob\libespressif__knob.a
+[124/234] Linking C static library esp-idf\espressif__iot_usbh_cdc\libespressif__iot_usbh_cdc.a
+[125/234] Linking C static library esp-idf\espressif__bq27220\libespressif__bq27220.a
+[126/234] Linking C static library esp-idf\espressif__usb_host_uvc\libespressif__usb_host_uvc.a
+[127/234] Linking C static library esp-idf\esp_eth\libesp_eth.a
+[128/234] Linking C static library esp-idf\esp_driver_tsens\libesp_driver_tsens.a
+[129/234] Linking C static library esp-idf\esp_driver_rmt\libesp_driver_rmt.a
+[130/234] Linking C static library esp-idf\espressif__esp_cam_sensor\libespressif__esp_cam_sensor.a
+[131/234] Linking C static library esp-idf\esp_driver_sdmmc\libesp_driver_sdmmc.a
+[132/234] Linking C static library esp-idf\cube32esp__xpowerslib\libcube32esp__xpowerslib.a
+[133/234] Linking C static library esp-idf\78__esp_lcd_nv3023\lib78__esp_lcd_nv3023.a
+[134/234] Linking C static library esp-idf\espressif__esp_lcd_touch\libespressif__esp_lcd_touch.a
+[135/234] Linking C static library esp-idf\console\libconsole.a
+[136/234] Linking C static library esp-idf\78__uart-eth-modem\lib78__uart-eth-modem.a
+[137/234] Linking C static library esp-idf\78__esp-wifi-connect\lib78__esp-wifi-connect.a
+[138/234] Linking C static library esp-idf\esphome__esp-hub75\libesphome__esp-hub75.a
+[139/234] Linking C static library esp-idf\espressif__adc_battery_estimation\libespressif__adc_battery_estimation.a
+[140/234] Linking C static library esp-idf\espressif__gmf_fft\libespressif__gmf_fft.a
+[141/234] Linking C static library esp-idf\espressif__esp_audio_codec\libespressif__esp_audio_codec.a
+[142/234] Linking C static library esp-idf\espressif__esp_io_expander_tca9554\libespressif__esp_io_expander_tca9554.a
+[143/234] Linking C static library esp-idf\fatfs\libfatfs.a
+[144/234] Linking C static library esp-idf\78__esp-ml307\lib78__esp-ml307.a
+[145/234] Linking C static library esp-idf\espressif__esp_lcd_co5300\libespressif__esp_lcd_co5300.a
+[146/234] Linking C static library esp-idf\espressif__esp_io_expander_tca95xx_16bit\libespressif__esp_io_expander_tca95xx_16bit.a
+[147/234] Linking C static library esp-idf\espressif__esp_lcd_ili9341\libespressif__esp_lcd_ili9341.a
+[148/234] Linking C static library esp-idf\espressif__esp_lcd_gc9a01\libespressif__esp_lcd_gc9a01.a
+[149/234] Linking C static library esp-idf\espressif__esp32-camera\libespressif__esp32-camera.a
+[150/234] Linking C static library esp-idf\espressif__esp_codec_dev\libespressif__esp_codec_dev.a
+[151/234] Linking C static library esp-idf\espressif__esp_lcd_panel_io_additions\libespressif__esp_lcd_panel_io_additions.a
+[152/234] Linking C static library esp-idf\espressif__esp_lcd_axs15231b\libespressif__esp_lcd_axs15231b.a
+[153/234] Linking C static library esp-idf\espressif__esp-dsp\libespressif__esp-dsp.a
+[154/234] Linking C static library esp-idf\espressif__esp_lcd_spd2010\libespressif__esp_lcd_spd2010.a
+[155/234] Linking C static library esp-idf\espressif__esp_lcd_st77916\libespressif__esp_lcd_st77916.a
+[156/234] Linking C static library esp-idf\espressif__esp_lcd_st7701\libespressif__esp_lcd_st7701.a
+[157/234] Linking C static library esp-idf\espressif__esp_lcd_st7796\libespressif__esp_lcd_st7796.a
+[158/234] Linking C static library esp-idf\espressif__esp_lcd_st77922\libespressif__esp_lcd_st77922.a
+[159/234] Linking C static library esp-idf\espressif__esp_lcd_touch_ft5x06\libespressif__esp_lcd_touch_ft5x06.a
+[160/234] Linking C static library esp-idf\espressif__esp_lcd_touch_cst816s\libespressif__esp_lcd_touch_cst816s.a
+[161/234] Linking C static library esp-idf\espressif__esp_lcd_touch_gt1151\libespressif__esp_lcd_touch_gt1151.a
+[162/234] Linking C static library esp-idf\espressif__esp_lcd_touch_st7123\libespressif__esp_lcd_touch_st7123.a
+[163/234] Linking C static library esp-idf\espressif__esp_video\libespressif__esp_video.a
+[164/234] Linking C static library esp-idf\espressif__esp_lcd_touch_gt911\libespressif__esp_lcd_touch_gt911.a
+[165/234] Linking C static library esp-idf\espressif__iot_usbh_rndis\libespressif__iot_usbh_rndis.a
+[166/234] Linking C static library esp-idf\espressif__led_strip\libespressif__led_strip.a
+[167/234] Linking C static library esp-idf\m5stack__m5ioe1\libm5stack__m5ioe1.a
+[168/234] Linking C static library esp-idf\espressif__esp-sr\libespressif__esp-sr.a
+[169/234] Linking C static library esp-idf\espressif2022__image_player\libespressif2022__image_player.a
+[170/234] Linking C static library esp-idf\waveshare__custom_io_expander_ch32v003\libwaveshare__custom_io_expander_ch32v003.a
+[171/234] Linking C static library esp-idf\tny-robotics__sh1106-esp-idf\libtny-robotics__sh1106-esp-idf.a
+[172/234] Linking C static library esp-idf\m5stack__m5pm1\libm5stack__m5pm1.a
+[173/234] Linking C static library esp-idf\waveshare__esp_lcd_sh8601\libwaveshare__esp_lcd_sh8601.a
+[174/234] Linking C static library esp-idf\wvirgil123__sscma_client\libwvirgil123__sscma_client.a
+[175/234] Linking C static library esp-idf\waveshare__esp_lcd_touch_cst9217\libwaveshare__esp_lcd_touch_cst9217.a
+[176/234] Performing configure step for 'bootloader'
+-- Minimal build - OFF
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/sdkconfig
+Default value for ESP_INT_WDT_TIMEOUT_MS in sdkconfig is 800 but it is 300 according to Kconfig.
+Using default value from sdkconfig (800).
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished with notifications
+NOTE: E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_system/Kconfig:281: ESP_INT_WDT_TIMEOUT_MS: Kconfig default value: 300, sdkconfig default value: 800, using 800 from sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_wdt/esp32s3/rom.wdt.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+CMake Warning at E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/gdbinit.cmake:58 (message):
+  Error while generating esp_rom gdbinit
+Call Stack (most recent call first):
+  E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:452 (__generate_gdbinit)
+  E:/Esp32/Espressif/frameworks/esp-idf-v6.1/tools/cmake/project.cmake:1101 (__project_info)
+  CMakeLists.txt:88 (project)
+
+
+-- Components: bootloader bootloader_support efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_hal_ana_conv esp_hal_clock esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_rom esp_security esp_stdio esp_system esptool_py freertos hal log main micro-ecc partition_table soc spi_flash xtensa
+-- Component paths: E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader_support E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/efuse E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_app_format E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_blockdev E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_bootloader_format E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_common E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_ana_conv E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_clock E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_dma E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_gpio E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_gpspi E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_mspi E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_pmu E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_regi2c E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_rtc_timer E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_security E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_systimer E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_timg E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_uart E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_usb E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hal_wdt E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_hw_support E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_libc E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_rom E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_security E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_stdio E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esp_system E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/esptool_py E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/freertos E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/hal E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/log E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/components/micro-ecc E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/partition_table E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/soc E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/spi_flash E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/xtensa
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.memory.ld.in
+--   -> Preprocessing .in script: E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.memory.ld.in
+-- Adding linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.sections.ld.in
+--   -> Preprocessing .in script: E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.sections.ld.in
+-- Configuring done (38.9s)
+-- Generating done (1.9s)
+-- Build files have been written to: C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader
+[177/234] Linking C static library esp-idf\lvgl__lvgl\liblvgl__lvgl.a
+[178/234] Linking C static library esp-idf\txp666__otto-emoji-gif-component\libtxp666__otto-emoji-gif-component.a
+[179/234] Linking CXX static library esp-idf\espressif__esp_lvgl_port\liblvgl_port_lib.a
+[180/234] Linking C static library esp-idf\espressif2022__esp_emote_gfx\libespressif2022__esp_emote_gfx.a
+[181/234] Linking C static library esp-idf\78__xiaozhi-fonts\lib78__xiaozhi-fonts.a
+[182/234] Linking C static library esp-idf\espressif2022__esp_emote_expression\libespressif2022__esp_emote_expression.a
+[183/234] Generating ../../0.ogg.S
+[184/234] Generating ../../1.ogg.S
+[185/234] Generating ../../2.ogg.S
+[186/234] Generating ../../3.ogg.S
+[187/234] Generating ../../4.ogg.S
+[188/234] Generating ../../5.ogg.S
+[189/234] Generating ../../6.ogg.S
+[190/234] Generating ../../7.ogg.S
+[191/234] Generating ../../8.ogg.S
+[192/234] Generating ../../9.ogg.S
+[193/234] Generating ../../activation.ogg.S
+[194/234] Generating ../../err_pin.ogg.S
+[195/234] Generating ../../err_reg.ogg.S
+[196/234] Generating ../../upgrade.ogg.S
+[197/234] Generating ../../welcome.ogg.S
+[198/234] Generating ../../wificonfig.ogg.S
+[199/234] Generating ../../low_battery.ogg.S
+[200/234] Generating ../../exclamation.ogg.S
+[201/234] Generating ../../popup.ogg.S
+[202/234] Generating ../../vibration.ogg.S
+[203/234] Generating ../../success.ogg.S
+[204/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/0.ogg.S.obj
+[205/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/1.ogg.S.obj
+[206/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/2.ogg.S.obj
+[207/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/3.ogg.S.obj
+[208/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/4.ogg.S.obj
+[209/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/5.ogg.S.obj
+[210/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/6.ogg.S.obj
+[211/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/7.ogg.S.obj
+[212/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/8.ogg.S.obj
+[213/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/9.ogg.S.obj
+[214/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/activation.ogg.S.obj
+[215/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/err_reg.ogg.S.obj
+[216/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/upgrade.ogg.S.obj
+[217/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/exclamation.ogg.S.obj
+[218/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/wificonfig.ogg.S.obj
+[219/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/success.ogg.S.obj
+[220/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/err_pin.ogg.S.obj
+[221/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/popup.ogg.S.obj
+[222/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/welcome.ogg.S.obj
+[223/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/low_battery.ogg.S.obj
+[224/234] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/vibration.ogg.S.obj
+[225/234] Linking C static library esp-idf\main\libmain.a
+[226/234] Performing build step for 'bootloader'
+[1/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
+[2/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj
+[3/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
+[4/158] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[5/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
+[6/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[7/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
+[8/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
+[9/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[10/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
+[11/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[12/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj
+[13/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
+[14/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
+[15/158] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
+[16/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.obj
+[17/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[18/158] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
+[19/158] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj
+[20/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_cpu_intr.c.obj
+[21/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[22/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj
+[23/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[24/158] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[25/158] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[26/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj
+[27/158] Linking C static library esp-idf\log\liblog.a
+[28/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj
+[29/158] Building C object esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir/systimer_hal.c.obj
+[30/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj
+[31/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj
+[32/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj
+[33/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj
+[34/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj
+[35/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj
+[36/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj
+[37/158] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj
+[38/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[39/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[40/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[41/158] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj
+[42/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[43/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj
+[44/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[45/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[46/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj
+[47/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[48/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj
+[49/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[50/158] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[51/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[52/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[53/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[54/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[55/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[56/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[57/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[58/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[59/158] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.obj
+[60/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj
+[61/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj
+[62/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_reset_common.c.obj
+[63/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj
+[64/158] Building C object esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj
+[65/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[66/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[67/158] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp32s3/esp_crypto_clk.c.obj
+[68/158] Linking C static library esp-idf\esp_common\libesp_common.a
+[69/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/adc_periph.c.obj
+[70/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[71/158] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.obj
+[72/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/temperature_sensor_periph.c.obj
+[73/158] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj
+[74/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal_common.c.obj
+[75/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_oneshot_hal.c.obj
+[76/158] Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj
+[77/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/temperature_sensor_hal.c.obj
+[78/158] Building C object esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/timer_hal.c.obj
+[79/158] Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj
+[80/158] Building C object esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj
+[81/158] Building C object esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/esp32s3/timer_periph.c.obj
+[82/158] Building C object esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal.c.obj
+[83/158] Building C object esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj
+[84/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/esp32s3/spi_periph.c.obj
+[85/158] Building C object esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/esp32s3/mspi_periph.c.obj
+[86/158] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[87/158] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[88/158] Building C object esp-idf/esp_hal_clock/CMakeFiles/__idf_esp_hal_clock.dir/esp32s3/clk_tree_hal.c.obj
+[89/158] Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj
+[90/158] Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32s3/gdma_periph.c.obj
+[91/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal.c.obj
+[92/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal.c.obj
+[93/158] Building C object esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal_iram.c.obj
+[94/158] Building C object esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj
+[95/158] Building C object esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.obj
+[96/158] Building C object esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/esp32s3/uart_periph.c.obj
+[97/158] Building C object esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/brownout_hal.c.obj
+[98/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hal_iram.c.obj
+[99/158] Building C object esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/esp32s3/rtc_cntl_hal.c.obj
+[100/158] Linking C static library esp-idf\esp_system\libesp_system.a
+[101/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_hal_iram.c.obj
+[102/158] Building C object esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uart_hal.c.obj
+[103/158] Building C object esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir/spi_slave_hd_hal.c.obj
+[104/158] Building C object esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir/esp32s3/usb_dwc_periph.c.obj
+[105/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32s3/dedic_gpio_periph.c.obj
+[106/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32s3/rtc_io_periph.c.obj
+[107/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/gpio_hal.c.obj
+[108/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/esp32s3/sdm_periph.c.obj
+[109/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/rtc_io_hal.c.obj
+[110/158] Building C object esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir/sdm_hal.c.obj
+[111/158] Building C object esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir/usb_dwc_hal.c.obj
+[112/158] Building C object esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir/usb_wrap_hal.c.obj
+[113/158] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+[114/158] Building C object esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir/usb_serial_jtag_hal.c.obj
+[115/158] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[116/158] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
+[117/158] Linking C static library esp-idf\esp_hal_systimer\libesp_hal_systimer.a
+[118/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[119/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[120/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj
+[121/158] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[122/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj
+[123/158] Generating project_elf_src_esp32s3.c
+[124/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj
+[125/158] Preprocessing linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.memory.ld.in -> C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader/ld/bootloader.memory.ld
+[126/158] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj
+[127/158] Preprocessing linker script E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/bootloader/subproject/main/ld/esp32s3/bootloader.sections.ld.in -> C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader/ld/bootloader.sections.ld
+[128/158] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
+[129/158] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[130/158] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[131/158] Linking C static library esp-idf\efuse\libefuse.a
+[132/158] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj
+[133/158] Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
+[134/158] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[135/158] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[136/158] Linking C static library esp-idf\esp_security\libesp_security.a
+[137/158] Linking C static library esp-idf\esp_hal_security\libesp_hal_security.a
+[138/158] Linking C static library esp-idf\esp_hal_ana_conv\libesp_hal_ana_conv.a
+[139/158] Linking C static library esp-idf\esp_hal_wdt\libesp_hal_wdt.a
+[140/158] Linking C static library esp-idf\esp_hal_timg\libesp_hal_timg.a
+[141/158] Linking C static library esp-idf\micro-ecc\libmicro-ecc.a
+[142/158] Linking C static library esp-idf\esp_bootloader_format\libesp_bootloader_format.a
+[143/158] Linking C static library esp-idf\spi_flash\libspi_flash.a
+[144/158] Linking C static library esp-idf\esp_hal_mspi\libesp_hal_mspi.a
+[145/158] Linking C static library esp-idf\esp_hal_clock\libesp_hal_clock.a
+[146/158] Linking C static library esp-idf\esp_hal_gpspi\libesp_hal_gpspi.a
+[147/158] Linking C static library esp-idf\esp_hal_dma\libesp_hal_dma.a
+[148/158] Linking C static library esp-idf\esp_hal_uart\libesp_hal_uart.a
+[149/158] Linking C static library esp-idf\esp_hal_pmu\libesp_hal_pmu.a
+[150/158] Linking C static library esp-idf\esp_hal_usb\libesp_hal_usb.a
+[151/158] Linking C static library esp-idf\esp_hal_gpio\libesp_hal_gpio.a
+[152/158] Linking C static library esp-idf\hal\libhal.a
+[153/158] Linking C static library esp-idf\soc\libsoc.a
+[154/158] Linking C static library esp-idf\xtensa\libxtensa.a
+[155/158] Linking C static library esp-idf\main\libmain.a
+[156/158] Linking C executable bootloader.elf
+[157/158] Generating binary image from built executable
+esptool v5.4.0
+Creating ESP32-S3 image...
+Merged 2 ELF sections.
+Successfully created ESP32-S3 image.
+Generated C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader/bootloader.bin
+[158/158] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Administrator\Desktop\OLed IMU\xiaozhi-esp32-main\xiaozhi-esp32-main\build6.1\bootloader" && E:\Esp32\Espressif\python_env\idf6.1_py3.11_env\Scripts\python.exe E:/Esp32/Espressif/frameworks/esp-idf-v6.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader/bootloader.bin""
+Bootloader binary size 0x4160 bytes. 0x3ea0 bytes (49%) free.
+[227/234] No install step for 'bootloader'
+[228/234] Completed 'bootloader'
+[229/234] Generating esp-idf/esp_system/ld/sections.ld
+Skipping linker script generation, section names unchanged
+[230/234] Building C object CMakeFiles/xiaozhi.elf.dir/project_elf_src_esp32s3.c.obj
+[231/234] Linking CXX executable xiaozhi.elf
+FAILED: xiaozhi.elf 
+C:\WINDOWS\system32\cmd.exe /C "cd . && E:\Esp32\Espressif\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-g++.exe @"C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/cxxflags" @"C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/toolchain/ldflags"   -Wl,--cref -Wl,--defsym=IDF_TARGET_ESP32S3=0 "-Wl,--Map=C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/xiaozhi.map" -Wl,--no-warn-rwx-segments -Wl,--orphan-handling=error -fno-lto -Wl,--gc-sections -Wl,--warn-common -T esp32s3.peripherals.ld -T esp32s3.rom.ld -T esp32s3.rom.api.ld -T esp32s3.rom.bt_funcs.ld -T esp32s3.rom.libgcc.ld -T esp32s3.rom.version.ld -T esp32s3.rom.ble_master.ld -T esp32s3.rom.ble_50.ld -T esp32s3.rom.ble_smp.ld -T esp32s3.rom.ble_dtm.ld -T esp32s3.rom.ble_test.ld -T esp32s3.rom.ble_scan.ld -T esp32s3.rom.libc.ld -T memory.ld -T sections.ld -T rom.wdt.ld -u include_esp_phy_override -T rom.regi2c.ld @CMakeFiles\xiaozhi.elf.rsp -o xiaozhi.elf && cd ."
+E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/ld.exe: cannot find IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/managed_components/espressif__esp_audio_codec/lib/esp32s3: No such file or directory
+E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/bin/ld.exe: cannot find IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/managed_components/espressif__esp_image_effects/lib/esp32s3: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

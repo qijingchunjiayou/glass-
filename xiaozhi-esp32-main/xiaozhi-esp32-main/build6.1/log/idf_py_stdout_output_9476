@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B C:\Users\Administrator\Desktop\OLed IMU\xiaozhi-esp32-main\xiaozhi-esp32-main\build6.1 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=E:\Esp32\Espressif\python_env\idf6.1_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCMAKE_NINJA_FORCE_RESPONSE_FILE=ON -DCCACHE_ENABLE=False C:\Users\Administrator\Desktop\OLed IMU\xiaozhi-esp32-main\xiaozhi-esp32-main
+-- Found Git: D:/claude code/Git/Git/cmd/git.exe (found version "2.55.0.windows.5")
+-- Minimal build - ON
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: xtensa-esp32s3-elf-gcc
+-- Warning: Did not find file Compiler/-ASM
+-- Configuring incomplete, errors occurred!

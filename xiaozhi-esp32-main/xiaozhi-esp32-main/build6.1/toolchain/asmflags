@@ -1,0 +1,6 @@
+-mdisable-hardware-atomics
+"-specs=C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

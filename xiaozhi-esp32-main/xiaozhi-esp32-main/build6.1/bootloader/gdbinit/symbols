@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    # Bootloader elf was not found
+set confirm on
+
+# Load application symbols
+file C:/Users/Administrator/Desktop/OLed IMU/xiaozhi-esp32-main/xiaozhi-esp32-main/build6.1/bootloader/bootloader.elf

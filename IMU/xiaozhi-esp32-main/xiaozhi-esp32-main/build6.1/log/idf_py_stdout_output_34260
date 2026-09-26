@@ -1,0 +1,25 @@
+Command: cmake -G Ninja -B C:\Users\Administrator\Desktop\OLed IMU\IMU\xiaozhi-esp32-main\xiaozhi-esp32-main\build6.1 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=E:\Esp32\Espressif\python_env\idf6.1_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCMAKE_NINJA_FORCE_RESPONSE_FILE=ON -DCMAKE_C_COMPILER=E:\Esp32\Espressif\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DCMAKE_CXX_COMPILER=E:\Esp32\Espressif\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-g++.exe -DCMAKE_ASM_COMPILER=E:\Esp32\Espressif\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DCCACHE_ENABLE=False C:\Users\Administrator\Desktop\OLed IMU
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'C:/Users/Administrator/Desktop/OLed IMU/sdkconfig'
+-- Found Git: D:/claude code/Git/Git/cmd/git.exe (found version "2.55.0.windows.5")
+-- Minimal build - OFF
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/Esp32/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+NOTE: Current idf-component-manager default lock file version is 3.0.0, but found 2.0.0 in C:\Users\Administrator\Desktop\OLed IMU\dependencies.lock. Recreating lock file with the current version.
+NOTE: Updating lock file at C:\Users\Administrator\Desktop\OLed IMU\dependencies.lock
+NOTE: Processing 2 dependencies:
+NOTE: [1/2] espressif/esp_websocket_client (1.8.0)
+NOTE: [2/2] idf (6.1.0)
+-- Configuring incomplete, errors occurred!
